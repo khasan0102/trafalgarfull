@@ -1,0 +1,404 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/mulish-v1-latin-300.woff2") format("woff2"),
+    url("../fonts/mulish-v1-latin-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/mulish-v1-latin-regular.woff2") format("woff2"),
+    url("../fonts/mulish-v1-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/mulish-v1-latin-700.woff2") format("woff2"),
+    url("../fonts/mulish-v1-latin-700.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*SITE-HEADER*/
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.site-nav-list {
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav-item a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+}
+
+.active a {
+  color: black;
+  opacity: 1;
+  font-weight: bold;
+}
+
+/*HEALTHCARE SECTION*/
+
+.virtual-healthcare-section {
+  display: flex;
+}
+
+.text-side {
+  padding-top: 100px;
+  padding-bottom: 135px;
+  padding-right: 120px;
+}
+
+.virtual-healthcare-section h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.virtual-healthcare-section p {
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.virtual-healthcare-section a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #458ff6;
+  border: 1px solid #458ff6;
+  padding: 18px 30px;
+  border-radius: 55px;
+  color: white;
+  margin-top: 48px;
+  transition: all 0.5s ease;
+}
+
+/* trafalgar services page styles */
+.trafalgar-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+.services-heading {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  text-align: center;
+}
+.services-heading-line {
+  border: none;
+  width: 56px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 1px;
+}
+
+.services-paragrapth {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  padding: 15px;
+  width: 87%;
+  margin: auto;
+  color: #7d7987;
+}
+
+.services-list-item {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1150px;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.services-list-boxes {
+  width: 330px;
+  height: 354px;
+  border-radius: 20px;
+  background-color: white;
+  list-style-type: none;
+  padding: 35px;
+  margin: 20px 0;
+  box-shadow: 10px 40px 50px 10px rgba(234, 238, 253, 0.5);
+}
+
+.services-info {
+  margin-top: 25px;
+}
+.frame {
+  margin: 10px 0;
+}
+.services-info-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+}
+
+.services-info-paragrapth {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 10px;
+  color: #7d7987;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 17px 45px;
+  text-align: center;
+  border: 1px solid #4089ed;
+  border-radius: 55px;
+  text-decoration: none;
+  color: #4089ed;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+/* healthcare-section PAGE STYLES */
+
+.healthcare-providers-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.healthcare-providers-info {
+  width: 450px;
+  margin-top: 50px;
+}
+.healthcare-providers-section h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  line-height: 56px;
+}
+.hr-left {
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.healthcare-providers-section p {
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  padding: 13px 0;
+}
+
+/* dowvload apps PAGE STYLES */
+.download-app-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.download-app-info {
+  width: 460px;
+  margin-top: 40px;
+}
+.download-app-info h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  line-height: 56px;
+}
+.download-app-info p {
+  margin-top: 18px;
+  font-size: 21px;
+  line-height: 31px;
+  padding: 10px 0;
+}
+
+.link-download {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-around;
+}
+
+.link-download img {
+  margin-left: 5px;
+}
+
+/* Trafalfalger-artigles page styles */
+.trafalgar-articles-section {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articles-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  text-align: center;
+}
+.articles-heading-line {
+  border: none;
+  width: 56px;
+  height: 2px;
+  background-color: #000;
+}
+.articles-list {
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 70px;
+  padding: 0;
+}
+
+.list-items-box {
+  width: 350px;
+  height: 512px;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.list-items-info {
+  width: 266px;
+  height: auto;
+  margin-top: 21px;
+  margin-bottom: 35px;
+  margin-left: 33px;
+}
+.info-heading {
+  font-size: 21px;
+  line-height: 32px;
+}
+.info-paragrapth {
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.info-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #4089ed;
+}
+
+
+/* Trafalagr footer page styles */
+
+.trafalgar-footer{
+  width: 1348px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5C9FF2;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.flex-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text-side{
+  color: white;
+  position: relative;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo_t{
+  position: absolute;
+  left: 12px;
+  top: 17px;
+}
+.footer-logo h2{
+  margin-left: 10px;
+}
+
+.footer-paragrapth{
+  width: 391px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.footer-links{
+  display: flex;
+  width: 750px;
+  justify-content: space-around;
+}
+
+.links-box{
+  color: white;
+}
+.links-box h3{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 60px;
+}
+.list-item{
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+}
