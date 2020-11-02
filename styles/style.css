@@ -286,10 +286,13 @@ body {
   background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
   border-radius: 24px;
   color: white;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .customer-big-box hr{
   background-color: #fff;
+  margin-bottom: 45px;
 }
 
 .customer-text-side{
@@ -321,6 +324,27 @@ body {
   font-size: 19px;
   line-height: 30px;
   color: #ffffffe6;
+}
+
+.customer-vectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 310px;
+  margin-top: 40px;
+}
+.customer-vectors > img{
+  cursor: pointer;
+}
+.vector-buttons{
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-vector{
+  opacity: 0.7;
 }
 /* Trafalfalger-artigles page styles */
 .trafalgar-articles-section {
